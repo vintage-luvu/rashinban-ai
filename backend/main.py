@@ -11,6 +11,11 @@ class ScheduleRequest(BaseModel):
 def read_root():
     return {"message": "Rashinban API is running."}
 
+@app.head("/")
+def head_root():
+    return {"message": "Rashinban API is running."}
+
+
 @app.post("/generate_schedule")
 def generate_schedule(request: ScheduleRequest):
     # Placeholder implementation
