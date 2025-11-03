@@ -59,7 +59,7 @@ export default function RashinbanHero() {
     }
   };
 
-  return((
+return (
     <div className="flex flex-col items-center min-h-screen bg-gradient-to-b from-white to-gray-100 text-gray-800">
       <h1 className="text-4xl font-semibold mt-12">🌞 Rashinban — Feel your rhythm</h1>
       <div className="mt-6">
@@ -89,4 +89,4 @@ export default function RashinbanHero() {
   );
 }
 
-}
+
